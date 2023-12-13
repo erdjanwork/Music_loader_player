@@ -8,7 +8,7 @@ filtered_data = list(files.rglob('*.mp3'))
 
 connection = psycopg2.connect(
     host='localhost',
-    port='5433',
+    port='5432',
     user='postgres',
     password='password',
     database='music_loader'
