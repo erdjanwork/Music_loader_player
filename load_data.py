@@ -14,9 +14,9 @@ class Song:
 connection = psycopg2.connect(
     host='localhost',
     user='postgres',
-    password='202703erdji',
+    password='password',
     database='music_loader',
-    port='5433'
+    port='5432'
 )
 
 cur = connection.cursor()
