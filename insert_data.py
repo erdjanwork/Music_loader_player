@@ -10,7 +10,7 @@ connection = psycopg2.connect(
     host='localhost',
     port='5433',
     user='postgres',
-    password='202703erdji',
+    password='password',
     database='music_loader'
 )
 
